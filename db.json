@@ -1,0 +1,60 @@
+{
+  "students": [
+    {
+      "firstName": "test",
+      "lastName": "testtest",
+      "birthYear": 0,
+      "class": "LP-DIM-FI",
+      "id": 1
+    },
+    {
+      "firstName": "jean",
+      "lastName": "paul",
+      "birthYear": 0,
+      "class": "LP-DIM-APP",
+      "id": 2
+    },
+    {
+      "firstName": "toto",
+      "lastName": "jack",
+      "birthYear": 1998,
+      "class": "LP-DIM-FI",
+      "id": 3
+    },
+    {
+      "firstName": "toto",
+      "lastName": "test",
+      "birthYear": 2000,
+      "class": "LP-DIM-FI",
+      "id": 4
+    },
+    {
+      "firstName": "jdznejkden",
+      "lastName": "ncdsnd",
+      "birthYear": 1999,
+      "class": "LP-DIM-APP",
+      "id": 5
+    },
+    {
+      "firstName": "toto",
+      "lastName": "rararara",
+      "birthYear": 1989,
+      "class": "LP-DIM-APP",
+      "id": 6
+    },
+    {
+      "firstName": "coucou",
+      "lastName": "test",
+      "birthYear": 1978,
+      "class": "LP-DIM-FI",
+      "id": 7
+    },
+    {
+      "firstName": "jean ",
+      "lastName": "neymar",
+      "birthYear": 1999,
+      "class": "LP-DIM-FI",
+      "id": 7
+    }
+  ]
+}

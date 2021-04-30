@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "lp-app-6a207"
+  },
+  "targets": {
+     "lp-app-6a207": {
+      "hosting": {
+        "lp-fi": [
+          "lp-app-6a207"
+        ]
+      }
+    }
+  }
+}

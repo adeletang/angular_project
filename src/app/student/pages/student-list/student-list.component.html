@@ -1,0 +1,52 @@
+<table mat-table [dataSource]="students$ | async" class="mat-elevation-z8">
+  <ng-container matColumnDef="id">
+    <th mat-header-cell *matHeaderCellDef>ID</th>
+    <td mat-cell *matCellDef="let toot">{{ toot.id }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="firstName">
+    <th mat-header-cell *matHeaderCellDef>Firstname</th>
+    <td mat-cell *matCellDef="let student">{{ student.firstName }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="lastName">
+    <th mat-header-cell *matHeaderCellDef>LastName</th>
+    <td mat-cell *matCellDef="let student">{{ student.lastName }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="class">
+    <th mat-header-cell *matHeaderCellDef>Class</th>
+    <td mat-cell *matCellDef="let student">{{ student.class }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="update">
+    <th mat-header-cell *matHeaderCellDef></th>
+    <td mat-cell *matCellDef="let student">
+      <button
+        mat-icon-button
+        (click)="openDialog(true, student)"
+      >
+        <mat-icon>edit</mat-icon>
+      </button>
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="delete">
+    <th mat-header-cell *matHeaderCellDef></th>
+    <td mat-cell *matCellDef="let student">
+      <button
+        mat-icon-button
+        (click)="delete(student)"
+      >
+        <mat-icon>delete</mat-icon>
+      </button>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+</table>
+
+<button mat-fab color="warn" (click)="openDialog(false, undefined)">
+  <mat-icon>add</mat-icon>
+</button>
