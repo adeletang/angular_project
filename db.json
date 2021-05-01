@@ -56,5 +56,15 @@
       "class": "LP-DIM-FI",
       "id": 7
     }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "class": "LP-DIM-APP"
+    },
+    {
+      "id": 1,
+      "class": "LP-DIM-FI"
+    }
   ]
 }
