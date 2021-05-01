@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  studentEndpoint: 'http://localhost:3000/students'
+  studentEndpoint: 'https://project-angular-lpfi.herokuapp.com/students'
 };

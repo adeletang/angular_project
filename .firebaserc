@@ -2,7 +2,7 @@
   "targets": {
      "project-angular-lpfi": {
       "hosting": {
-        "angular_project": [
+        "lp-fi-master": [
           "project-angular-lpfi"
         ]
       }

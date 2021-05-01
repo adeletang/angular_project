@@ -15,8 +15,8 @@
       ]
     },
     {
-      "target": "angular_project",
-      "public": "dist/angular_project",
+      "target": "lp-fi-master",
+      "public": "dist/lp-fi-master",
       "ignore": [
         "**/.*"
       ],
