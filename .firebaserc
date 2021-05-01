@@ -1,12 +1,9 @@
 {
-  "projects": {
-    "default": "lp-app-6a207"
-  },
   "targets": {
-     "lp-app-6a207": {
+     "project-angular-lpfi": {
       "hosting": {
-        "lp-fi": [
-          "lp-app-6a207"
+        "angular_project": [
+          "project-angular-lpfi"
         ]
       }
     }
